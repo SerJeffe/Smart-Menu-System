@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Hubballi&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    background:#f5d9d5;
+}
+
+.cusContainer{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    padding-top: 5%;
+    border: 2px solid black;
+}
+
+.tableName{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.customerTableText{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(243, 111, 144, 0.952);
+}
+
+.customerTable{
+    margin: 10px;
+    width: 200px;
+    height: 130px;
+}
+
+table{
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    table-layout: fixed;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.displayMenuInTable{
+    margin-top: 20px;
+    height: 900;
+}
+
+.displayData{
+
+    padding: 5%;
+}
+
+.orderComBtn{
+    background-color: rgba(245, 73, 116, 0.952);
+    padding: 1%;
+    border: 0;
+    margin-top: 15px;
+    margin-left: 87%;
+    border-radius: 5px;
+}
+
+.totalAmount{
+    margin-top: 15px;
+    margin-left: 87%;
+}
