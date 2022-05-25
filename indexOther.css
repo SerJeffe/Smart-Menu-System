@@ -1,0 +1,75 @@
+body {
+background:#f5d9d5;
+}
+#tableNo{
+    display: none;
+}
+#mainNavbar{
+    font-size:1.5rem;
+    font-weight:100;
+}
+#mainNavbar .navbar-brand{
+    color:#EA1C2C;
+    font-weight: 900;
+}
+#mainNavbar .nav-link{
+    color:white;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#EA1C2C;
+}
+#headingGroup span{
+ color:#EA1C2C;
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+@media (max-width:1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
+.anchor-of-two {
+    font-weight: 100;
+    font-size: 4rem;
+    color:white;
+
+}
+.anchor-of-two span{
+    color:#EA1C2C;
+}
+.anchor-of-two:hover{
+color:#EA1C2C;
+text-decoration: none;
+}
+@media (max-width:1200px){
+    .anchor-of-two{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
+.spacing{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.common{
+    margin-bottom: 25px;
+}
+.navbar.scrolled{
+    background:rgb(223, 191, 223);
+    transition: 500ms;
+}
+.img-fluid{
+    margin-top: 10px;
+}
+@media(max-width:320px){
+    .anchor-of-two{
+        font-size: 2rem;
+    }
+}
+

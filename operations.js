@@ -84,6 +84,44 @@ function displayData(tableNo){
     alert(tableNo);
 }
 
+
+
+
+//preparing order operations
+
+function generateBill(tableName){
+    $.ajax({
+        url:"orderComplete.php",
+        type:"post",
+        data: {sendTable: tableName},
+        success: function(){
+            document.getElementById("button-id-"+tableName).value = "Bill Generated..";
+        }
+    });
+}
+
+function goToHomePage(tableId){
+    window.open("indexOther.php?number="+tableId,"_self");
+}
+
+function goToGenerateBillPage(tableId){
+    window.open("payment/generateBill.php?number="+tableId,"_self");
+}
+
+
+//reception operations
+
+function orderComplete(tableNo){
+    $.ajax({
+        url:"orderComplete.php",
+        type:"post",
+        data: {sendTable: tableNo},
+        success: function(res){
+            console.log(res);
+        }
+    });
+}
+
 function checkTable(){
     var i;
     for(i=1;i<=5;i++){
@@ -103,15 +141,3 @@ function checkTableAjax(input){
         }
     });
 }
-
-function orderComplete(tableNo){
-    $.ajax({
-        url:"orderComplete.php",
-        type:"post",
-        data: {sendTable: tableNo},
-        success: function(res){
-            console.log(res);
-        }
-    });
-}
-

@@ -1,0 +1,44 @@
+body {
+    background: #f5d9d5;
+}
+
+.tableID {
+    display: none;
+}
+
+.btn {
+    background-color: rgba(245, 73, 116, 0.952);
+    border: rgba(245, 73, 116, 0.952);
+    width: 130px;
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+    position: sticky;
+}
+
+li{
+    font-size: 12px;
+}
+
+#grand-total{
+    font-size: 16px;
+    font-weight: 50%;
+}
+.amount-div div{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.price-box{
+    float: right;
+    background-color: white;
+}
+
+.card{
+    background-color: white;
+}
+
+.card span{
+    font-size: 12px;
+}
+
